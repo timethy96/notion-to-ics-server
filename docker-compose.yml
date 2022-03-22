@@ -1,0 +1,13 @@
+version: '2'
+  
+services:
+  
+    notion-to-ics-server:
+        build: .
+        ports:
+            - 80:80
+        environment:
+            GUNICORN_CMD_ARGS: --reload
+            SECRET_PW: changeThisToAnyPassword
+            NOTION_TOKEN: Notion_token_v2_cookie
+        restart: unless-stopped

@@ -1,0 +1,2 @@
+fastapi
+git+https://github.com/timethy96/notion-py.git
