@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
-from notiontoics.to_ics import get_icals
+from to_ics import get_icals
 from os import environ
 from notion.client import NotionClient
 
