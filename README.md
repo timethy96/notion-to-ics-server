@@ -12,7 +12,7 @@ This is a self-hosted on-demand ics serving converter api for notion calendars. 
 ## Request URL
 
 The request URL consists of some variables and options:
-https://yourDomain.com/?password={SECRET_PW}&calendar_url={calendar_url}&categories_property={categories_property}&show_others={show_others}
+`https://yourDomain.com/?password={SECRET_PW}&calendar_url={calendar_url}&categories_property={categories_property}&show_others={show_others}`
 
 | var | Description | Type |
 | ------------- | ------------- | ------------- |
